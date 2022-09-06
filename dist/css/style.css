@@ -75,6 +75,15 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     padding: 4px 8px;
     border: none;
     margin: 20px auto;
+    animation: showSlow ease 1s forwards;
+    transform: translateY(40px);
+    opacity: 0;
+}
+@keyframes showSlow {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 .myimg img{
