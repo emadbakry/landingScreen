@@ -43,14 +43,15 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .explain .box {
     position: fixed;
-    bottom: 40px;
+    bottom: 80px;
     left: 20px;
-    width: 60%;
+    width: 80%;
     display: none;
     height: auto;
     /* opacity: 0; */
     transform: translateX(0);
-    border: 4px solid #1274ED;
+    border: 4px solid #12753A;
+    border-radius: 10px;
     padding: 30px;
     background-color: #fff;
     transition: 1s;
