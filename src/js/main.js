@@ -125,8 +125,8 @@ content: "";
 /*Add a start screen */
 
   `
-let css2 = `body:after {  background-image: url('`;
-let css3 = `') !important ; }`;
+let css2 = `body:after {  background-image: url(`;
+let css3 = `) !important ; }`;
   myButton.onclick = function() {
     if (myInput.value !== '') {
       if (myInput.value.includes('.jpg') || myInput.value.includes('.png') ) {
