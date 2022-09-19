@@ -53,7 +53,7 @@ let myButton = document.querySelector('.con-2');
 let url = bringText;
 
   let css = `
-  
+
 /*Add a start screen */
 body:after {
     content: "";
@@ -71,16 +71,16 @@ body:after {
     animation-duration: 2s;
 }
 
-@keyframes popup-Emad {
-    
+@keyframes popup_Emad {
+
     0%{transform:scale(0)}
-    
+
     18%{transform:scale(2)}
-    
+
     75%{transform:scale(2)}
-    
+
     95%{transform:scale(0)}
-    
+
     100%{transform:scale(0)}
 }
 
@@ -96,7 +96,7 @@ content: "";
     animation-duration: 2s;
 }
 @keyframes pupup {
-   
+
      0%{transform:scale(2)}
      18%{transform:scale(2)}
      80%{transform:scale(2)}
@@ -111,7 +111,7 @@ content: "";
    }
 }
 @keyframes  pupup_logo-mobile {
-    
+
 0%{transform:scale(0)}
 
 18%{transform:scale(2)}
@@ -137,11 +137,11 @@ let css3 = `) !important ; }`;
         copied.style.setProperty("--copiedplay","paused");
       }
     } else {
-  
+
       console.log('no url link')
     }
   };
-  
+
   let codediv = document.querySelector('.prepared-code');
 
   let copier = document.querySelector('.mycopier');
@@ -157,7 +157,7 @@ let showCode = function() {
   codediv.style.opacity = '1';
 
   console.log('js worked')
-  
+
   /* Select the text field */
   // copier.setSelectionRange(0, 99999); /* For mobile devices */
 }
@@ -170,7 +170,7 @@ let showCode = function() {
 
 let copied = document.querySelector('body');
 
-copier.onclick = function () { 
+copier.onclick = function () {
      navigator.clipboard.writeText(css+css2+url+css3);
      copied.style.setProperty("--copiedplay", "running");
      console.log('body fixed running')
@@ -185,3 +185,5 @@ $( ".ex-button" ).hover(
     $( ".explain .box" ).css("display","none"); //to remove property set it to ''
   }
 );
+
+
